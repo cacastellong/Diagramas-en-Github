@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title description">
+  <title id="title">Gráfico de barras inspirado en William Playfair</title>
+  <desc id="description">Comparación de exportaciones e importaciones por destino en cuatro categorías.</desc>
+  <rect width="1200" height="760" fill="#F4FBFA"/>
+  <text x="80" y="78" fill="#245D61" font-family="Georgia, serif" font-size="34" font-weight="bold">Exportaciones e importaciones</text>
+  <text x="80" y="116" fill="#245D61" font-family="Arial, sans-serif" font-size="18">Adaptación didáctica del primer gráfico de barras de William Playfair</text>
+
+  <g stroke="#B9D8D5" stroke-width="2">
+    <line x1="130" y1="180" x2="1110" y2="180"/>
+    <line x1="130" y1="280" x2="1110" y2="280"/>
+    <line x1="130" y1="380" x2="1110" y2="380"/>
+    <line x1="130" y1="480" x2="1110" y2="480"/>
+    <line x1="130" y1="580" x2="1110" y2="580"/>
+  </g>
+  <g fill="#245D61" font-family="Arial, sans-serif" font-size="16" text-anchor="end">
+    <text x="112" y="586">0</text>
+    <text x="112" y="486">25</text>
+    <text x="112" y="386">50</text>
+    <text x="112" y="286">75</text>
+    <text x="112" y="186">100</text>
+  </g>
+  <line x1="130" y1="180" x2="130" y2="580" stroke="#245D61" stroke-width="4"/>
+  <line x1="130" y1="580" x2="1110" y2="580" stroke="#245D61" stroke-width="4"/>
+
+  <g fill="#4FD2DB">
+    <rect x="205" y="240" width="58" height="340" rx="5"/>
+    <rect x="445" y="300" width="58" height="280" rx="5"/>
+    <rect x="685" y="360" width="58" height="220" rx="5"/>
+    <rect x="925" y="420" width="58" height="160" rx="5"/>
+  </g>
+  <g fill="#245D61">
+    <rect x="270" y="320" width="58" height="260" rx="5"/>
+    <rect x="510" y="372" width="58" height="208" rx="5"/>
+    <rect x="750" y="404" width="58" height="176" rx="5"/>
+    <rect x="990" y="468" width="58" height="112" rx="5"/>
+  </g>
+
+  <g fill="#245D61" font-family="Arial, sans-serif" font-size="17" text-anchor="middle">
+    <text x="266" y="620">Inglaterra</text>
+    <text x="506" y="620">Francia</text>
+    <text x="746" y="620">Holanda</text>
+    <text x="986" y="620">España</text>
+  </g>
+  <g fill="#245D61" font-family="Arial, sans-serif" font-size="15">
+    <rect x="830" y="92" width="18" height="18" rx="3" fill="#4FD2DB"/>
+    <text x="858" y="107">Exportaciones</text>
+    <rect x="1000" y="92" width="18" height="18" rx="3" fill="#245D61"/>
+    <text x="1028" y="107">Importaciones</text>
+  </g>
+  <text x="80" y="700" fill="#245D61" font-family="Arial, sans-serif" font-size="15">Cada barra representa un valor; su altura facilita la comparación entre categorías.</text>
+</svg>
